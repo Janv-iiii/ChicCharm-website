@@ -1,0 +1,356 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color: #f39c12;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('https://img.freepik.com/premium-photo/pink-off-shoulder-bridesmaid-dress-hangs-hanger_1187703-185250.jpg?uid=R163086018&ga=GA1.1.907918175.1725973426&semt=ais_hybrid') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #f39c12;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #e67e22;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 50px;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.designs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.design-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.design-card:hover {
+    transform: translateY(-10px);
+}
+
+.design-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.design-card p {
+    font-size: 16px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/*Our Designs page*/
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Light background for contrast */
+    color: #333; /* Text color */
+}
+
+/* Header */
+.header {
+    background-color: #2c3e50; /* Dark header */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px; /* Spacing for navbar items */
+}
+
+.logo {
+    font-size: 24px; /* Logo font size */
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Horizontal links */
+}
+
+.nav-links li {
+    margin-left: 20px; /* Spacing between links */
+}
+
+.nav-links a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Link font size */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.nav-links a:hover {
+    color: #f39c12; /* Change color on hover */
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 50px; /* Padding for the gallery */
+    text-align: center; /* Center text */
+}
+
+.gallery h2 {
+    font-size: 36px; /* Title font size */
+    margin-bottom: 20px; /* Sp*/
+}
+
+
+/*customise-your-dress-page*/
+/* Customize Your Dress Page Styles */
+
+/* Customize Section */
+.customize-section {
+    padding: 50px; /* Padding for the section */
+    background-color: #f4f4f9; /* Light background for contrast */
+    text-align: center; /* Center text */
+    border-radius: 10px; /* Rounded corners for the section */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    max-width: 800px; /* Max width for the section */
+    margin: 50px auto; /* Center the section with vertical margin */
+}
+
+.customize-section h2 {
+    font-size: 36px; /* Title font size */
+    margin-bottom: 30px; /* Spacing below title */
+    color: #2c3e50; /* Title color */
+    font-weight: bold; /* Bold title */
+}
+
+/* Form Group Styles */
+.form-group {
+    margin-bottom: 20px; /* Spacing between form groups */
+    text-align: left; /* Align label and input to the left */
+    max-width: 400px; /* Max width for form elements */
+    margin: 0 auto; /* Center form elements */
+}
+
+label {
+    font-size: 18px; /* Label font size */
+    display: block; /* Block level for better spacing */
+    margin-bottom: 5px; /* Space between label and input */
+    color: #34495e; /* Label color */
+}
+
+input[type="file"],
+select {
+    width: 100%; /* Full width input and select */
+    padding: 12px; /* Padding inside inputs */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 5px; /* Spacing above inputs */
+    font-size: 16px; /* Font size for inputs */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+input[type="file"]:focus,
+select:focus {
+    border-color: #f39c12; /* Change border color on focus */
+    outline: none; /* Remove outline */
+}
+
+/* Button Styles */
+button.btn {
+    background-color: #f39c12; /* Button color */
+    color: #fff; /* Button text color */
+    padding: 12px 25px; /* Padding inside button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 18px; /* Button text size */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+button.btn:hover {
+    background-color: #e67e22; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Footer Section */
+.footer {
+    background-color: #2c3e50; /* Dark footer */
+    color: #fff; /* Footer text color */
+    text-align: center; /* Center footer text */
+    padding: 20px; /* Padding in footer */
+    position: relative; /* Relative positioning */
+    bottom: 0; /* Align to bottom */
+    width: 100%; /* Full width footer */
+}
+
+/*contact-us page*/
+/* Contact Us Section */
+.contact-section {
+    padding: 50px; /* Padding for the section */
+    background-color: #f4f4f9; /* Light background for contrast */
+    text-align: center; /* Center text */
+    border-radius: 10px; /* Rounded corners for the section */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    max-width: 800px; /* Max width for the section */
+    margin: 50px auto; /* Center the section with vertical margin */
+}
+
+.contact-section h2 {
+    font-size: 36px; /* Title font size */
+    margin-bottom: 30px; /* Spacing below title */
+    color: #2c3e50; /* Title color */
+    font-weight: bold; /* Bold title */
+}
+
+/* Form Group Styles */
+.form-group {
+    margin-bottom: 20px; /* Spacing between form groups */
+    text-align: left; /* Align label and input to the left */
+    max-width: 400px; /* Max width for form elements */
+    margin: 0 auto; /* Center form elements */
+}
+
+label {
+    font-size: 18px; /* Label font size */
+    display: block; /* Block level for better spacing */
+    margin-bottom: 5px; /* Space between label and input */
+    color: #34495e; /* Label color */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Full width input and textarea */
+    padding: 12px; /* Padding inside inputs */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 5px; /* Spacing above inputs */
+    font-size: 16px; /* Font size for inputs */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #f39c12; /* Change border color on focus */
+    outline: none; /* Remove outline */
+}
+
+/* Button Styles */
+button.btn {
+    background-color: #f39c12; /* Button color */
+    color: #fff; /* Button text color */
+    padding: 12px 25px; /* Padding inside button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 18px; /* Button text size */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+button.btn:hover {
+    background-color: #e67e22; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}

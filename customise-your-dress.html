@@ -1,0 +1,47 @@
+<!-- main/templates/customize_dress.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chic Charm - Customize Your Dress</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <h1 class="logo">Chic Charm</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="our-designs.html">Our Designs</a></li>
+                <li><a href="customise-your-dress.html">Customize Your Dress</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Customize Your Dress Section -->
+    <section class="customize-section">
+        <h2>Customize Your Dress</h2>
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="photo">Upload a Photo:</label>
+                <input type="file" id="photo" name="photo" accept="image/*" required>
+            </div>
+            <div class="form-group">
+                <label for="colors">Choose a Color:</label>
+                <select id="colors" name="colors" required>
+                    <option value="">Select a Color</option>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                    <option value="black">Black</option>
+                    <option value="white">White</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="fabric">Select Fabric:</label>
+                <select id="fabric" name="fabric" required>
+                    <option 
